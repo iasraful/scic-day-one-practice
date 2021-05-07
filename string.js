@@ -40,4 +40,24 @@ console.log(`The word "${searchingWord}" ${firstSentence.includes(searchingWord)
 
 // Use of String.prototype.indexOf()
 
+const line = 'the dog is looking so good rather than a crow';
+const finding = 'the';
+const indexOfUse = line.indexOf(finding)
+console.log(indexOfUse);  // means I am finding = dog from the line array and it show me the position of the finding (dog) items.
 
+
+// Using of String.prototype.lastIndexOf()
+
+
+const newLine = 'Amin waiting for someone maybe I think the someone is a girl';
+const looking = 'Amin';
+
+const useOf = newLine.lastIndexOf(looking);
+console.log("this is show ",useOf);
+
+
+// Use Of String.prototype.replace()
+
+const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+
+console.log(p.replace('dog', 'monkey'));
