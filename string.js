@@ -34,6 +34,10 @@
 // USE of String.prototype.includes()
 
 const firstSentence = 'Amar Naam Ashraf'
-const searchingWord = 'naam'
-console.log(`The word "${searchingWord}" ${firstSentence.includes(searchingWord) ? 'is ' : 'is not'} in the line `);
+const searchingWord = 'Naam'
+console.log(`The word "${searchingWord}" ${firstSentence.includes(searchingWord) ? 'is ' : 'is not'} in the line `);   // Here we use the ternary operator we are searching the word of "Naam" and check it in the firstSentence that the Naam is in there or not  &&& the outPut is The word is in the sentence.
+
+
+// Use of String.prototype.indexOf()
+
 
