@@ -61,3 +61,16 @@ console.log("this is show ",useOf);
 const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
 
 console.log(p.replace('dog', 'monkey'));
+
+
+//////Use of  String.prototype.trim()
+//////The trim() method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
+
+const useTream = '      soon i will be able to buy anything whatever I want    ';
+
+console.log(useTream.trim());
+console.log(useTream);
+
+
+
+// ------------- END OF STRING -----------------------//
